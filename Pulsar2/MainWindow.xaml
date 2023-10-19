@@ -1,0 +1,16 @@
+﻿<Window x:Class="Pulsar2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Пульсар" Height="350" Width="525">
+    <Grid>
+        <Ellipse Name="PulsarCircle" Width="125" Height="125" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Ellipse.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="Orange" Offset="0.0" />
+                    <GradientStop Color="Yellow" Offset="1.0" />
+                </RadialGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+    </Grid>
+</Window>
+
